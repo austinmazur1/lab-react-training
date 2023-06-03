@@ -10,6 +10,7 @@ import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
+import Dice from './components/Dice';
 
 function App() {
   // console.log(berlinData)
@@ -129,6 +130,10 @@ function App() {
         Clickable Picture
       </div>
       <ClickablePicture img="maxence.png" imgClicked="maxence-glasses.png" />
+      <div className="flex justify-center p-6 text-4xl text-bold">
+        Dice
+      </div>
+      <Dice />
     </div>
   );
 }
