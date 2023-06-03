@@ -8,6 +8,7 @@ import CreditCard from './components/CreditCard';
 import CardItems from './components/CardItems';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
+import LikeButton from './components/LikeButton';
 
 function App() {
   // console.log(berlinData)
@@ -118,6 +119,11 @@ function App() {
           licensePlate: 'BE33ER',
         }}
       />
+      <div className="flex justify-center p-6 text-4xl text-bold">
+        Like Button
+      </div>
+      <LikeButton />
+      <LikeButton />
     </div>
   );
 }
